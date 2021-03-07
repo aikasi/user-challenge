@@ -23,6 +23,7 @@ export class PodcastResolver {
       console.log(error);
       return false;
     }
+    //1
   }
   @Query(() => Podcast)
   async getPodcast(@Param('id') id: string) {

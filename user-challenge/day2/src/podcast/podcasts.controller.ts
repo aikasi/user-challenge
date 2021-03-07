@@ -26,7 +26,7 @@ export class PodcastsController {
   createPodcast(@Body() createPodcastDto: CreatePodcastDto) {
     return this.podcastsService.createPodcast(createPodcastDto);
   }
-
+  //1
   @Get('/:id')
   getPodcast(@Param('id') id: string) {
     return this.podcastsService.getPodcast(id);
