@@ -21,7 +21,7 @@ export class PodcastsController {
   getAllPodcasts() {
     return this.podcastsService.getAllPodcasts();
   }
-
+  //2
   @Post()
   createPodcast(@Body() createPodcastDto: CreatePodcastDto) {
     return this.podcastsService.createPodcast(createPodcastDto);
