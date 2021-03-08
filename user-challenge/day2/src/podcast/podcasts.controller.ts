@@ -31,7 +31,7 @@ export class PodcastsController {
   getPodcast(@Param('id') id: string) {
     return this.podcastsService.getPodcast(id);
   }
-
+  //2
   @Patch('/:id')
   updatePodcast(
     @Param('id') id: string,
