@@ -39,7 +39,7 @@ export class PodcastsController {
   ) {
     return this.podcastsService.updatePodcast(id, updatePodcastDto);
   }
-
+  //3
   @Delete('/:id')
   deletePodcast(@Param('id') id: string) {
     return this.podcastsService.deletePodcast(id);
