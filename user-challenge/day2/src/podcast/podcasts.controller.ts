@@ -16,7 +16,7 @@ import { PodcastsService } from './podcasts.service';
 @Controller('/podcasts')
 export class PodcastsController {
   constructor(private readonly podcastsService: PodcastsService) {}
-
+  //3
   @Get()
   getAllPodcasts() {
     return this.podcastsService.getAllPodcasts();
